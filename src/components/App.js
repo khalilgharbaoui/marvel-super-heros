@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './Footer/Footer';
-import Navbar from './Navbar/Navbar';
+import NavBar from './NavBar/NavBar';
 import '../stylesheets/components.scss';
 
 class App extends React.Component {
@@ -11,7 +11,7 @@ class App extends React.Component {
   }
   render() {
     return (<div>
-      <Navbar brand={"Marvel Super Heros"}/>
+      <NavBar brand={"Marvel Super Heros"}/>
       <div className='container-fluid'>
         {this.props.children}
       </div>
