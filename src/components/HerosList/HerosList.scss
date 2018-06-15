@@ -1,0 +1,31 @@
+.hero_thumbnail {
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  &:hover{
+    opacity: 0.5;
+    transition-timing-function: ease;
+    transition: 0.2s;
+
+  }
+}
+.hero{
+  position:relative;
+  overflow:hidden;
+  padding: 0px;
+  &:hover{
+    .caption-up{
+    -moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    opacity: 1;
+    }
+    .hero_thumbnail {
+      opacity: 0.5;
+      transition-timing-function: ease;
+      transition: 0.2s;
+    }
+  }
+}

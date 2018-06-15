@@ -1,0 +1,21 @@
+.caption-up h1, .caption-up h2, .caption-up h3, .caption-up h4, .caption-up h5, .caption-up h6, .caption-up p {
+color:#FFF;
+text-shadow: 1px 1px 4px black;
+}
+
+.caption-up{
+  position: absolute;
+  top: 100%;
+  left:0;
+  width: 100%;
+  height:auto;
+  background-color:#22334d;
+  padding-left:10px;
+  padding-bottom: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
