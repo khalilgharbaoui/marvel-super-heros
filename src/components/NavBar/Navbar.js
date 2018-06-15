@@ -34,7 +34,7 @@ class Navbar extends React.Component {
           <ul className="nav navbar-nav"></ul>
           <ul className="nav navbar-nav navbar-right colo">
             <li>
-              <Link to={`/`}>Heros</Link>
+              <Link to={"/"}>Heros</Link>
             </li>
             <li>
               <Link to={"#"}>
