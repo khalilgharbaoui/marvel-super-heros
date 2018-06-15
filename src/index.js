@@ -4,6 +4,7 @@ import {Router, Route, IndexRoute, Link} from 'react-router-dom'
 import createBrowserHistory from 'history/createBrowserHistory'
 import Pace from 'pace-js';
 import './stylesheets/pace-theme-loading-bar.scss'
+import './stylesheets/animate.scss'
 import App from './components/App';
 import HerosList from './components/HerosList/HerosList';
 // import ComicsList from  './components/ComicsList';

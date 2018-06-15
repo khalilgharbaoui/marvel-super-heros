@@ -81,10 +81,10 @@ class Hero extends React.Component {
     });
     return (<div>
       <div className="row">
-        <div className="col-md-4 col-sm-6 col-xs-12 hero_container" style={{
+        <div className="col-md-4 col-sm-6 col-xs-12 hero_container animated slideInLeft" style={{
             backgroundImage: hero_img
           }}></div>
-        <div className="col-md-8 col-sm-6 col-xs-12 details_container">
+        <div className="col-md-8 col-sm-6 col-xs-12 details_container animated slideInRight">
           <h2>
             {component.state.data && component.state.data.name}
             Details:

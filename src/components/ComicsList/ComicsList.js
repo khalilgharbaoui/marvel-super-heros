@@ -40,7 +40,7 @@ class ComicsList extends React.Component {
           let comic_name = comic.title;
           let comic_image_url = comic.thumbnail.path + '.' + comic.thumbnail.extension;
           let backgroundUrl = `url(${comic_image_url}), url(${spinnergif})`;
-          return (<div className="col-md-2" key={Math.random() + i}>
+          return (<div className="col-md-2 animated bounceIn" key={Math.random() + i}>
             <div style={{backgroundImage:backgroundUrl}}  className="comic_item"></div>
             <br/>
           </div>);
