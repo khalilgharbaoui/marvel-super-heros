@@ -1,9 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router';
-import './ComicsList.scss'
+import './ComicsList.scss';
 import spinnergif from '../../spinner.gif';
 let md5 = require('md5');
-// i dont use jquery here on pourpous!
 import MarvelWrapper from 'marvel-wrapper';
 const marvel = new MarvelWrapper({privateKey: '41a7ff15e8a1db2375df61a4822cce263f228f15', publicKey: '4eeea482433c34be951bc65e90d99d32'});
 

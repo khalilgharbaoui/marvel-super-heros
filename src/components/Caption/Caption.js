@@ -1,6 +1,6 @@
-import React from 'react'
-import './Caption.scss'
-import HeroLink from '../HeroLink/HeroLink'
+import React from 'react';
+import './Caption.scss';
+import HeroLink from '../HeroLink/HeroLink';
 
 class Caption extends React.Component {
 

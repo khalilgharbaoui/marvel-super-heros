@@ -1,7 +1,7 @@
 import React from 'react';
 import ComicsList from '../ComicsList/ComicsList';
 import spinnergif from '../../spinner.gif';
-import $ from 'jquery'; // I use jquery here on pourpous.
+import $ from 'jquery';
 let md5 = require('md5');
 import "./Hero.scss";
 
