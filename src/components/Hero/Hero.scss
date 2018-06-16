@@ -1,11 +1,11 @@
 .hero_container {
-  height: 440px;
+  min-height: 440px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 .details_container {
-  height: 440px;
+  min-height: 440px;
   background-color: white;
 
 }

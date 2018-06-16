@@ -1,6 +1,16 @@
 .comic_item {
-  height: 355px;
+  min-height:310px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+$viewports: ( 100%, 768px, 992px, 1200px);
+
+@each $viewport in $viewports {
+  @media (min-width: #{$viewport}) {
+    .comic_item  {
+      min-height: $viewport/3.5;
+    }
+  }
 }

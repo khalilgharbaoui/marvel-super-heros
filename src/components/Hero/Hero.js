@@ -5,7 +5,6 @@ import $ from 'jquery';
 let md5 = require('md5');
 import "./Hero.scss";
 
-
 class Hero extends React.Component {
   constructor() {
     super();
@@ -83,7 +82,8 @@ class Hero extends React.Component {
       <div className="row">
         <div className="col-md-4 col-sm-6 col-xs-12 hero_container animated slideInLeft" style={{
             backgroundImage: hero_img
-          }}></div>
+          }}>
+        </div>
         <div className="col-md-8 col-sm-6 col-xs-12 details_container animated slideInRight">
           <h2>
             {component.state.data && component.state.data.name}
@@ -92,14 +92,14 @@ class Hero extends React.Component {
           <h4>
             {component.state.data.description}
           </h4>
-          <div className="row">
             {
               component.state.comics && component.state.comics.items.reduce((all, one, i) => {
-                const ch = Math.floor(i / 10);
+                const chuck_size = 7
+                const ch = Math.floor(i / chuck_size);
                 all[ch] = [].concat((all[ch] || []), one);
                 return all
               }, []).map(function(comic_chunk, i) {
-                return (<div className="col-md-4" key={i}>
+                return (<div className="col-md-4 col-xs-12" key={i}>
                   {
                     comic_chunk.map(function(comic, i) {
                       return (<h5 key={i}>{comic.name}</h5>)
@@ -108,11 +108,11 @@ class Hero extends React.Component {
                 </div>)
               })
             }
-              <div className="col-md-12">
-                {buttons}
-              </div>
 
-          </div>
+            <div className="col-md-12">
+              {buttons}
+            </div>
+
         </div>
       </div>
       <ComicsList id={params.heroId}/>
