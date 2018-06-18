@@ -2,7 +2,7 @@
   "presets": ["react", "env"],
   "env": {
     "development": {
-      "presets": ["react-hmre"]
+      "presets": ["react","react-hmre","env"]
     }
   }
 }
