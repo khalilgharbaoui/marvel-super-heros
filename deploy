@@ -18,7 +18,7 @@ fi
 echo "/* /index.html   200" > deploys/_redirects
 
 # Run the build
-echo "Runnig npm run build to creat the dist"
+echo "Runnig yarn run build to create the dist"
 yarn run build
 
 # Copy over the dist to deploys
