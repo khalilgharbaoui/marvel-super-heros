@@ -1,11 +1,11 @@
-#Marvel Super Heros
+# Marvel Super Heros
 
 ## ReactJS Marvel Super Hero API
 
-###Info:
+### Info:
 
 
-###Frameworks & Languages used:
+### Frameworks & Languages used:
 
 
 - ReactJS
@@ -22,12 +22,12 @@
 - Bootstrap
 - Marvel API ( http://gateway.marvel.com/)
 
-###Demo:
+### Demo:
 
 http://marvel-super-heros.netlify.com
 
 
-###Installation
+### Installation
 
 ```
 $ yarn install
@@ -38,15 +38,15 @@ $ open http://localhost:3001
 
 ```
 
-###Deployment
+### Deployment
 
 ```
 $ bash deploy
 
 ```
 
-###TODO:
+### TODO:
 
 - refactor
-- write tests
+- write more tests
 - write some ruby instead 😏
