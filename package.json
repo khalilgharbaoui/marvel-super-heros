@@ -67,7 +67,7 @@
   },
   "dependencies": {
     "history": "^4.7.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "marvel-wrapper": "^1.0.9",
     "md5": "^2.2.1",
     "pace": "^0.0.4",
